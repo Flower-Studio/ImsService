@@ -1897,10 +1897,14 @@
 
     invoke-static {v0, v1}, Landroid/telephony/Rlog;->d(Ljava/lang/String;Ljava/lang/String;)I
 
+<<<<<<< HEAD
     .line 686
     invoke-static {}, Landroid/os/storage/StorageManager;->inCryptKeeperBounce()Z
 
     move-result v0
+=======
+    const/4 v0, 0x0
+>>>>>>> fc3082c (ImsService: Patch out dependency on inCryptKeeperBounce())
 
     if-nez v0, :cond_1
 
